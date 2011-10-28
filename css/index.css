@@ -1,0 +1,31 @@
+html { font-size:100.01%; }
+body { 
+  font-size: 75%;
+  color: #ececec; 
+  background: #ececec url(img/index/bezel.png) repeat-x center;
+  font-family: "Helvetica Neue", "Helvetica", "Lucida Grande", Arial, sans-serif;
+}
+
+#top-index {
+ margin-top: 100px;
+}
+
+#mid-index {
+ background: #fff url(img/index/bg-mid.png) repeat-x;
+ min-height: 772px;
+ border: 3px solid #e1e1e1;
+ -moz-border-radius:10px;
+ -webkit-border-radius:10px;
+}
+
+#ventanas {
+ margin: 22px 0 0 12px;
+}
+
+#bezel {
+ background: url(img/index/bezel.png) repeat-x bottom;
+ height: 152px;
+ margin-top: -15px;
+ margin-left: -15px;
+ margin-right: -18px;
+}

@@ -1,0 +1,1679 @@
+html { font-size:100.01%; }
+body { 
+  font-size: 75%;
+  color: #797970; 
+  background: #ececec url(img/head.png) repeat-x;
+  font-family: "Helvetica Neue", "Helvetica", "Lucida Grande", Arial, sans-serif;
+}
+
+/* Headings
+-------------------------------------------------------------- */
+
+h1,h2,h3,h4,h5,h6 { font-weight: normal; color: #53534D;}
+
+h1 { font-size: 3em; line-height: 1; margin-bottom: 0.5em; }
+h2 { font-size: 2em; margin-bottom: 0.75em; }
+
+h3 { font-size: 1.8em; line-height: 1;}
+
+h4 { font-size: 1.3em; line-height: 1.6; color: #898989; margin-left: 5px;}
+h5 { font-size: 1.2em; color: #fff; font-weight: bold; margin-left: 7px; line-height: 1.8; }
+h6 { font-size: 1.5em; line-height: 1; margin-bottom: 5px; padding-bottom: 5px; margin-left: 2px; }
+
+h1 img, h2 img, h3 img, 
+h4 img, h5 img, h6 img {
+  margin: 0;
+}
+
+
+/* Text elements
+-------------------------------------------------------------- */
+
+p           { font-size: 1.2em; line-height: 1; margin: 0 0 5px; color: #6b6b64; }
+p img.left  { float: left; margin: 1.5em 1.5em 1.5em 0; padding: 0; }
+p img.right { float: right; margin: 1.5em 0 1.5em 1.5em; }
+
+a:focus, 
+a:hover     { text-decoration: underline; }
+a           { color: #6dae40; text-decoration: none; }
+
+blockquote  { margin: 1.5em; color: #666; font-style: italic; }
+strong      { font-weight: bold; }
+em,dfn      { font-style: italic; }
+dfn         { font-weight: bold; }
+sup, sub    { line-height: 0; }
+
+abbr, 
+acronym     { border-bottom: 1px dotted #666; }
+address     { margin: 0 0 1.5em; font-style: italic; }
+del         { color:#666; }
+
+pre 		{ margin: 1.5em 0; white-space: pre; }
+pre,code,tt { font: 1em 'andale mono', 'lucida console', monospace; line-height: 1.5; }
+
+
+/* Mix elements
+-------------------------------------------------------------- */
+
+.round-left {
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+}
+
+.round-right {
+	-moz-border-radius-topright:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+}
+
+.round-right-5 {
+ -moz-border-radius:5px;
+ -webkit-border-radius:5px;
+}
+
+.round-right-3 {
+ -moz-border-radius:3px;
+ -webkit-border-radius:3px;
+}
+
+.avatar-1 {
+ border: 1px solid #d3d2d2
+}
+
+/* buttons + msj (s)
+-------------------------------------------------------------- */
+
+.error-box, .check-box {
+ margin: 20px;
+ padding: 10px;
+}
+
+.error-box p, .check-box p {
+ font-size: 1em;
+ line-height: 1.2;
+ font-family: "Helvetica Neue", "Helvetica", "Lucida Grande", Arial, sans-serif;
+}
+
+.check-box  {
+ background: #cfeabc;
+ border: 3px solid #6dae40;
+}
+
+.check-box p {
+ color: #448615;
+}
+
+/* buttons */
+
+a.button {
+text-decoration: none;
+}
+
+.button{
+background: #222;
+display: inline-block;
+
+padding: 5px 10px 5px ;
+
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+line-height: 1;
+
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+
+text-shadow: 0 -1px 1px #636363;
+border: 1px solid #636363;
+
+
+position: relative;
+cursor: pointer;
+margin-right: 12px;
+}
+
+.button {
+...
+text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+border: 1px solid rgba(0,0,0,0.1);
+...
+}
+
+/* Colors ---------- */
+.verde.button {
+font-size: 12px;
+background-color: #80ca4c;
+color: #fff;
+text-shadow: #65b033  0px 1px 0px;
+}
+
+.verde.button:hover {
+background-color: #6dae40;
+}
+
+.gris.button {
+font-size: 12px;
+background-color: #f6f6f6;
+color: #878680;
+text-shadow: #fff  0px 1px 0px;
+}
+
+.gris.button:hover {
+background-color: #eee;
+}
+
+/* layout 
+-------------------------------------------------------------- */
+
+#equipo {
+ background: #f6f6f6;
+ padding: 10px;
+ height: 40px;
+ border-bottom: 1px solid #ececec;
+}
+
+#equipo .equipos-list .equipo-loop .info-equipo .nombre-list-right {
+ width: 500px;
+}
+
+/* head top */
+
+#head-top {
+ margin-top: 10px;
+}
+
+#perfil-ol {
+ margin-top: 4px;
+}
+
+#perfil-ol li {
+ float: left;
+ margin-left: 8px;
+}
+
+#perfil-ol li a {
+ color: #ebebeb;
+ text-shadow: #2d6600  -1px 1px 0px;
+ font-size: 1.2em;
+ font-weight: bold;
+}
+
+#perfil-ol li a:hover {
+text-decoration: none;
+color: #fff;
+}
+
+/* head bottom */
+
+#tabs-sec li {
+ float: left;
+ margin-right: 20px;
+ margin-top: 12px;
+ padding-bottom: 7px;
+}
+
+#tabs-sec li a {
+ font-size: 1.5em;
+ font-weight: bold;
+ text-decoration: none;
+ color: #448615;
+ text-shadow: #88ca5a  0px 1px 0px;
+}
+
+#tabs-sec li a:hover, #tabs-sec li.tabs-active a {
+ color: #fff;
+ text-shadow: #448615  -1px 1px 0px; 
+}
+
+.tabs-active {
+ background: url(img/active-head.png) no-repeat bottom;
+}
+
+#search {
+ margin-top: 10px;
+}
+
+#search li {
+ float: left;
+}
+
+.input-search {
+ display: block;
+ width: 214px;
+ height: 31px;
+ border: 0 none;
+ padding: 5px 0px 0px 20px;
+ background: url(img/search-l.png) no-repeat;
+ font-size: 15px;
+ line-height: 31px;
+ margin: 0;
+ color: #696969;
+}
+
+.btn-search {
+ background: url(img/search-r.png) 0 0;
+ margin-left: -20px;
+ height: 31px;
+ width: 32px;
+ display: block;
+ border: 0 none;
+ cursor: pointer;
+}
+
+.btn-search:hover {
+ background: url(img/search-r.png) 0 -35px;
+}
+
+/* left + modulos 
+-------------------------------------------------------------- */
+
+#left {
+ background-color: #fff;
+ border-left: 1px solid #dbdada;
+ border-right: 1px solid #dbdada;
+ min-height: 900px;
+}
+
+.titles-sec {
+ margin: 20px 10px 5px 20px;
+}
+
+.titles-sec-2 {
+ margin: 35px 35px 20px 40px;
+}
+
+/* partidos 
+-------------------------------------------------------------- */
+
+/* head partido */
+
+.partido-head {
+ height: 77px;
+ background: url(img/partido.png) repeat-x;
+}
+
+.partido-state {
+ margin-top: 8px;
+ width: 74px;
+ height: 61px;
+ background: url(img/p-state.png) no-repeat;
+}
+
+.partido-info {
+ width: 525px;
+ margin: 8px 10px 0 13px;
+}
+
+.info-state li.info-fecha, 
+.info-state li.info-hora, 
+.info-state li.info-short {
+ text-align: center;
+ color: #fff;
+ font-weight: bold;
+ line-height: 1.1;
+ text-shadow: #3b8202  0px -1px 0px;
+}
+
+.info-state li.info-fecha {
+ padding-top: 5px;
+ font-size: 1.5em;
+ text-shadow: #3b8202  0px -1px 0px;
+}
+
+.info-state li.info-fecha span {
+ color: #448615;
+ text-shadow: #7abb4c  0px 1px 0px;
+}
+
+.info-state li.info-hora {
+ font-size: 1.2em;
+}
+
+.info-state li.info-short {
+ padding-top: 6px;
+ font-size: 1em;
+ font-weight: normal;
+ text-shadow: #3b8202  -1px 1px 0px;
+}
+
+.info-state li.info-name {
+ line-height: 1.2;
+ font-size: 1.5em;
+ padding-top: 1px;
+ font-weight: bold;
+}
+
+.info-state li.info-name a{
+ color: #6dae40;
+ text-shadow: #fff 0px 1px 0px;
+}
+
+.info-state li.info-name a:hover{
+ color: #56922d;
+ text-decoration: none;
+}
+
+.info-state li.info-lugar {
+ color: #989898;
+ text-shadow: #fff 0px 1px 0px;
+ font-size: 1.2em;
+ line-height: 1.2;
+ font-weight: bold;
+}
+
+.info-state li.info-faltante {
+ padding-top: 5px;
+ font-size: 1em;
+ font-weight: normal;
+}
+
+/* bottom partido */
+
+.box-info {
+ float: left;
+ margin: 20px 0 0 22px;
+ width: 280px;
+ min-height: 85px;
+}
+
+.head-box-info {
+ background-color: #ececec;
+ height: 25px;
+}
+
+.head-box-action {
+ background-color: #80ca4c;
+ height: 25px;
+ padding: 0 7px;
+ color: #fff;
+ font-size: 1.1em;
+ line-height: 1.8;
+}
+
+.head-box-action:hover {
+ text-decoration: none;
+ background-color: #6dae40;
+}
+
+.box-info table {
+ margin-top: 5px;
+}
+
+.title-info {
+ width: 100px;
+}
+
+.title-opcion {
+ color: #6dae40;
+}
+
+.title-opcion button {
+ border: none;
+ padding-top: 5px;
+ width: 12px;
+ height: 12px;
+ background: url(img/sumar.png) no-repeat 0 0;
+}
+
+.title-opcion button:hover {
+ background: url(img/sumar.png) no-repeat 0 -12px;
+}
+
+.box-info span {
+ color: #6dae40;
+ font-size: 1.1em;
+ line-height: 2.3;
+}
+
+.option-list-especial li {
+ float: left;
+ margin: 0 6px 1px 0;
+}
+
+.option-list-especial li:hover {
+ opacity: 0.8;
+}
+
+/* notificaciones 
+-------------------------------------------------------------- */
+
+/* tabs */
+
+.tabs-sec li {
+ float: left;
+ margin-right: 5px;
+}
+
+.tabs-sec li a {
+ font-size: 1.2em;
+ color: #919189;
+ text-decoration: none;
+ padding: 1px 5px;
+ -moz-border-radius:3px;
+ -webkit-border-radius:3px;
+}
+
+.tabs-sec li a:hover {
+ color: #fff;
+ background-color: #80ca4c;
+}
+
+.tabs-sec li a.tabs-sec-active {
+ background-color: #6dae40;
+ color: #fff;
+}
+
+.tabs-sec li a.team-li-make {
+ color: #fff;
+ background-color: #80ca4c;
+}
+
+.tabs-sec li a.team-li-make:hover {
+background-color: #6dae40;
+}
+
+/* info update + invitaciones
+-------------------------------------------------------------- */
+
+#notificaciones {
+ margin: 20px;
+}
+
+/* notificaciones */
+
+.partidos, .invitaciones, .desafios, .jugadores, .comentarios, .solicitudes  {
+ border-bottom: 1px dashed #ececec;
+ padding: 10px 0;
+}
+
+.partidos:hover, .invitaciones:hover, .desafios:hover, .jugadores:hover, .comentarios:hover, .solicitudes:hover  {
+ background: #f9f9f9;
+}
+
+.thumb{
+ display:block;
+ width:55px;
+ float: left;
+ margin-top: 4px;
+}
+
+.index-content {
+ display:block;
+ width: 535px;
+ float: left;
+ font-size: 1.1em;
+ line-height: 1.2;
+}
+
+.pregunta {
+ color: #6dae40;
+ font-size: 0.9em;
+ line-height: 2;
+}
+
+.time {
+ float: right;
+ padding-right: 10px;
+ font-size: 1em;
+ color: #fff;
+ line-height: 0;
+ padding-top: 20px;
+}
+
+.partidos:hover .time, .invitaciones:hover .time, .desafios:hover .time, .jugadores:hover .time, .comentarios:hover .time, .solicitudes:hover .time {
+ color: #6dae40;
+}
+
+/* fast */
+
+.fast {
+ -moz-border-radius:5px;
+ -webkit-border-radius:5px;
+ background: #ececec;
+ padding: 5px 8px 8px 8px;
+ margin: 10px 0;
+}
+
+.fast-invita, .fast-partido, .fast-usuario, .fast-desafio  {
+ padding-left: 32px;
+ padding-bottom: 1px;
+ padding-top: 1px;
+}
+
+.fast-invita {background: url(img/sprite-icow.png) no-repeat 0 0;}
+.fast-partido {background: url(img/sprite-icow.png) no-repeat 0 -20px;}
+.fast-usuario {background: url(img/sprite-icow.png) no-repeat 0 -100px;}
+.fast-desafio {background: url(img/sprite-icow.png) no-repeat 0 -80px;}
+
+/* box comentarios */
+
+#box-comentario {
+ margin: 0 20px 0 20px;
+}
+
+#box-comentario textarea {
+ border: 3px solid #ececec;
+ width: 560px;
+ height: 95px;
+ padding: 10px;
+ color: #797970;
+}
+
+#box-comentario textarea:hover {
+ border: 3px solid #ddd;
+}
+
+.responder.button {
+font-size: 12px;
+margin-right: 4px;
+background-color: #ececec;
+color: #878680;
+text-shadow: #fff  0px 1px 0px;
+}
+
+#box-comentario .responder:hover {
+ background-color: #ddd;
+}
+
+
+/* anteriores */
+
+#anteriores {
+ background: #f9f9f9;
+ border: 1px solid #ececec;
+ height: 30px;
+ margin: 20px;
+}
+
+#anteriores a {
+ color: #9f9e95;
+ text-shadow: #fff 0px 1px 0px;
+ background: #ececec;
+ font-size: 1.3em;
+ line-height: 1.8;
+ margin-left: 1px;	
+ padding: 4px 12px 5px 12px;
+}
+
+#anteriores a:hover {
+ color: #797970;
+ text-decoration: none;
+ background: #e2e2e2;
+}
+
+/* right + modulos 
+-------------------------------------------------------------- */
+
+/* make team + head right */
+
+.r-option {
+ margin: 25px 0 0 15px;
+}
+
+.r-option a.make-team, .r-option a.make-macht, .r-option a.make-edit, .r-option a.make-add {
+ -moz-border-radius:5px;
+ -webkit-border-radius:5px;
+ color: #fff;
+ font-size: 1.2em;
+ font-weight: bold;	
+}
+
+.r-option a.make-team  {
+ background: #6dae40;
+ padding: 7px 82px;
+ text-shadow: -1px 1px 0px #448615;
+}
+
+.r-option span.header  {
+ background: #6dae40;
+ padding: 7px 50px;
+ text-shadow: -1px 1px 0px #448615;
+ -moz-border-radius:5px;
+ -webkit-border-radius:5px;
+ color: #fff;
+ font-size: 1.2em;
+ font-weight: bold;	
+}
+
+
+.r-option a.make-macht {
+ background: #6dae40;
+ padding: 7px 79px;
+ text-shadow: -1px 1px 0px #448615;
+}
+
+.r-option a.verde:hover, .r-option a.make-macht:hover {
+ background: #5fa032;
+ text-decoration: none;
+}
+
+.r-option a.make-edit {
+ background: #88ca5a;
+ padding: 7px 81px;
+ text-shadow: -1px 1px 0px #6dae40;
+}
+
+.r-option a.make-add {
+ background: #88ca5a;
+ padding: 7px 71px;
+ text-shadow: -1px 1px 0px #6dae40;
+}
+
+.r-option a.make-edit:hover, .r-option a.make-add:hover {
+ background: #6dae40;
+ text-decoration: none;
+ text-shadow: -1px 1px 0px #448615;
+}
+
+.head-right {
+ margin: 25px 0 0 15px;
+}
+
+.head-right  {
+ background: #b3cdcc url(img/ver-r.png) no-repeat right;
+ height: 25px;
+}
+
+/* notificaciones */
+
+#noti-fast {
+ margin: 15px 0 0 20px;
+}
+
+.invita-fast, .partido-fast, .jugadores-fast, .comentarios-fast, .desafio-fast {
+ font-size: 1.1em;
+ text-shadow: #fff  0px 1px 0px;
+ padding-left: 32px;
+}
+
+.invita-fast {
+ background: url(img/sprite-icow.png) no-repeat -0px -0px;
+}
+
+.partido-fast {
+ background: url(img/sprite-icow.png) no-repeat -0px -20px;
+}
+
+.jugadores-fast {
+ background: url(img/sprite-icow.png) no-repeat -0px -100px;
+}
+
+.comentarios-fast {
+ background: url(img/sprite-icow.png) no-repeat -0px -60px;
+}
+
+.desafio-fast {
+ background: url(img/sprite-icow.png) no-repeat -0px -80px;
+}
+
+/* jugadores */
+
+.player-admin-list-right {
+ margin: 15px 0 0 20px;
+}
+
+.player-list-right {
+ margin: 5px 0 0 20px;
+}
+
+.player-list-right li, .player-admin-list-right li{
+ float: left;
+ margin: 5px 5px 0 0;
+}
+
+/* equipos */
+
+#equipos-mod {
+ margin-top: 17px;
+ margin-left: 20px;
+}
+
+#equipos-mod-2 {
+ margin-top: 30px;
+ margin-left: 0px;
+}
+
+#equipos-mod-2 li h4 {
+ margin-bottom: 15px;
+ margin-left: -3px;
+ font-size: 1.5em;
+}
+
+.equipos-list {
+ width: 265px;
+ height: 40px;
+ margin-bottom: 15px;
+}
+
+.equipo-loop  li{
+ float: left;
+}
+
+.info-equipo {
+ width: 185px;
+ margin-left: 15px;
+}
+
+.msg-list-right {
+ width: 185px;
+ padding-left: 23px;
+ padding-top: 3px;
+ padding-bottom: 3px;
+ background: url(img/sprite-icow.png) no-repeat -0px -40px;
+ font-size: 1.1em;
+ line-height: 1;
+}
+
+.nombre-list-right {
+ width: 185px;
+}
+
+.nombre-list-right a {
+ font-size: 1.4em;
+ color: #6dae40;
+ text-shadow: #fff  0px 1px 0px;
+ line-height: 1.4;
+}
+
+.nombre-list-right a:hover {
+ color: #448615;
+ text-decoration: none;
+}
+
+/* formularios
+-------------------------------------------------------------- */
+
+/* head state */
+
+
+#form-state {
+ margin: 30px 0 0 30px;
+}
+
+#form-state li {
+ float: left;
+ color: #464646;
+ margin-right: 10px;
+ font-size: 1.8em;
+ text-shadow: #fff 0px 1px 0px;
+}
+
+#form-state img {
+ margin-top: 4px;
+}
+
+/* perfil */
+
+#layout-2 {
+ background: #fff;
+ border: 1px solid #dbdada;
+ margin-top: 35px;
+ min-height: 500px;
+}
+
+.form {
+ margin: 30px 25px;
+}
+
+.search-form {
+    margin: 30px 10px;
+    width: 300px;
+}
+
+#tab-form {
+ margin:30px 0 0 30px;
+}
+
+#tab-form li{
+ background: #b3cdcc;
+ margin: 0px 15px 15px 0px;
+ -moz-border-radius:5px;
+ -webkit-border-radius:5px;
+}
+
+#tab-form li a {
+ font-size: 1.1em;
+ font-weight: bold;
+ color: #fff;
+ margin-left: 8px;
+ line-height: 2;
+ display: block;
+ text-shadow: #6c9896 0px 1px 0px;
+}
+
+#tab-form li a:hover {
+ text-decoration: none;
+}
+
+#tab-form li:hover {
+ background: #88CA5A;
+}
+
+#tab-form li.tab-form-active {
+ background: #6dae40;
+}
+
+/* setting para los form */
+
+
+.label-form {
+ display: inline;
+ font-size: 1.2em;
+ margin-right: 50px;
+ font-weight: 300;
+ color: #53534d;
+}
+
+.search-label-form {
+ display: inline;
+ font-size: 1.2em;
+ margin-right: 10px;
+ font-weight: 300;
+ color: #53534d;
+ padding-top: 12px;
+}
+
+.input-form input, .input-form select, .input-form textarea  {
+ border: 2px solid #ddd;
+ color: #53534d;
+ padding: 5px;
+ width: 250px;
+ -moz-border-radius:5px;
+ -webkit-border-radius:5px;
+}
+
+.search-input-form input, .search-input-form select, .search-input-form textarea  {
+ border: 2px solid #ddd;
+ color: #53534d;
+ padding: 5px;
+ width: 150px;
+ -moz-border-radius:5px;
+ -webkit-border-radius:5px;
+}
+
+
+.input-form select {
+ width: 180px;
+}
+
+.tip-form, .tip-form-check, .tip-form-error {
+ font-size: 1em;
+ margin-bottom: 20px;
+ margin-top: 3px;
+ color: #8d8d84;
+}
+
+.tip-form-check {
+ color: #6dae40;
+}
+
+.tip-form-error {
+ color: #dd362e;
+}
+
+/* equipos */
+
+#perfil-equipos{
+ margin: 30px 40px;
+}
+
+.pel-nombre {
+ color: #53534d;
+ font-size: 1.4em;
+ line-height: 1.2;
+}
+
+.pel-player {
+ color: #8d8d84;
+}
+
+.perfil-equipos-loop a:hover {
+ color: #dd362e;
+ text-decoration: none;
+}
+
+.perfil-equipos-loop {
+ border-bottom: 1px dashed #ececec;
+ padding: 5px 8px;
+}
+
+.perfil-equipos-loop:hover {
+ background: #ececec;
+}
+
+/* li team + make team + make partido
+-------------------------------------------------------------- */
+
+/* li team */
+
+#loop-equipos-li {
+ margin: 25px 40px 40px 40px;
+}
+
+.equipo-list {
+ border-bottom: 1px dashed #ececec;
+ padding: 10px 0;
+ height: 47px;
+}
+
+.equipo-list:hover  {
+ background: #f9f9f9;
+}
+
+.thumb-li{
+ display:block;
+ width: 70px;
+ float: left;
+ margin-top: 4px;
+}
+
+.thumb-li img {
+ margin-left: 15px;
+}
+
+.index-content-li {
+ display:block;
+ float: left;
+ font-size: 1.1em;
+ line-height: 1.2;
+}
+
+.li-nombre-team a{
+ font-size: 1.4em;
+ line-height: 1.3;
+ text-shadow: #fff 0 -1px 0;
+}
+
+.li-nombre-team a:hover {
+  color: #448615;
+  text-decoration: none;
+}
+
+.li-prox-partido, .li-mensajes, .li-jugadores {
+ font-size: 0.9em;
+ line-height: 2.2;
+ padding-left: 20px;
+ margin-right: 10px;
+ padding-bottom: 1px;
+}
+
+.li-prox-partido {
+  background: url(img/sprite-icow-t.png) no-repeat -0px -0px; 
+}
+
+.li-mensajes {
+  background: url(img/sprite-icow-t.png) no-repeat 0px -15px;
+}
+
+.li-jugadores {
+  background: url(img/sprite-icow-t.png) no-repeat -0px -61px;
+}
+
+/* li team drop down */
+
+.btn-config {
+ background: url(img/option.png) no-repeat 0px 0px;
+ height: 28px;
+ width: 33px;
+ margin-top: -5px;
+ margin-right: -30px;
+}
+
+.btn-config:hover {
+ background: url(img/option.png) no-repeat 0px -28px;
+}
+
+/* make partido */
+
+#type-macht {
+ background: #6dae40;
+ padding: 40px 60px;;
+ margin: 120px 150px 0 150px;
+ -
+}
+
+#type-macht span{
+ font-size: 1.8em;
+ color: #448615;
+ text-shadow: #88ca5a  0px 1px 0px;
+ margin-left: 35px;
+ line-height: 2;
+}
+
+#type-macht a {
+ font-size: 1.5em;
+ color: #fff;
+ text-shadow: #448615  0px 1px 0px;
+ padding: 7px;
+ margin-left: 15px;
+}
+
+#type-macht a:hover {
+ color: #fff;
+ background: #88ca5a;
+ text-decoration: none;
+}
+
+#estructura-partido {
+margin: 0 30px;
+}
+
+.check-info {
+ font-size: 1.2em;
+ line-height: 2;
+ font-weight: 300;
+ color: #53534d;
+}
+
+#team-for-macht {
+ margin-left: 160px;
+ margin-top: 20px;
+ width: 600px;
+}
+
+#team-for-macht ul li {
+ width: 165px;
+ margin-bottom: 10px;
+ margin-right: 10px;
+ padding: 8px 12px;
+ float: left;
+}
+
+#team-for-macht ul li:hover {
+ background-color: #ececec;
+ -moz-border-radius:3px;
+ -webkit-border-radius:3px;
+}
+
+#team-for-macht ul li img {
+padding-top: 4px;
+}
+
+#team-for-macht ul li span.info-team-for-macht {
+ margin-left: 8px;
+}
+
+#team-for-macht ul li a {
+ font-size: 1.2em;
+ margin-left: 8px;
+ line-height: 1;
+ display: block;
+}
+
+#team-for-macht ul li a:hover {
+ color: #448615;
+ text-decoration: none;
+}
+
+/* modulo de partidos guardados */
+
+#info-macht-save {
+ background: #6dae40;
+ min-height: 100px;
+}
+
+#info-macht-save {
+ padding: 5px 10px;
+ margin: 30px 10px 0 -20px;
+}
+
+#info-macht-save h4 {
+ color: #fff;
+ margin-bottom: 5px;
+ text-shadow: #286c00 0px 1px 0px;
+}
+
+#info-macht-save ul {
+margin-bottom: 10px;
+}
+
+#info-macht-save ul li {
+ padding: 5px 10px;
+ background: #88ca5a;
+ margin-bottom: 10px;
+}
+
+#info-macht-save ul li a {
+ color: #f1f1f1;
+ font-size: 1.2em;
+ text-shadow: #448615 0px 1px 0px;
+}
+
+#info-macht-save ul li a:hover {
+ text-decoration: none;
+ color: #fff;
+}
+
+#info-macht-save ul li span {
+ color: #448615;
+ margin-right: 5px;
+}
+
+/* make team */
+
+#step-indicator {
+  margin: 60px 230px 20px 150px;
+}
+
+#step-indicator p {
+ margin-top: 10px;
+ font-size: 1em;
+}
+
+#step-indicator ol li {
+ float: left;
+ margin-right: 40px;
+ padding: 18px 0 20px 10px;
+ background: url(img/sprite-step.png) no-repeat 0px -40px;
+ font-size: 1.5em;
+ line-height: 0;
+ color: #d7d7d7;
+ }
+
+#step-indicator ol li span {
+ font-weight: bold;
+ color: #fff;
+ font-size: 1.8em;
+ line-height: 0;
+ display: block;
+}
+
+#step-indicator ol li strong {
+ margin-left: 35px;
+ display: block;
+}
+
+#step-indicator ol li.step-active {
+ color: #53534D;
+ background: url(img/sprite-step.png) no-repeat 0px -0px;
+}
+
+/* pub team + user
+-------------------------------------------------------------- */
+
+/* layout */
+
+#intro-pub {
+ background: #ececec;
+ margin: 30px 30px 5px 30px;
+ height: 100px;
+}
+
+#pub-left {
+ margin: 25px 30px 30px 30px;
+}
+
+pub-right {
+}
+
+#intro-pub ol {
+ margin: 10px 0 0 10px;
+}
+
+.thumb-pub {
+ float: left;
+}
+
+.option-pub {
+ float: left;
+ margin-left: 10px;
+}
+
+.option-pub strong {
+ font-size: 2em;
+ color: #6dae40;
+ line-height: 1;
+}
+
+/* gadget */
+
+#gadget-pub ol {
+ margin: 10px 20px 0 0;
+}
+
+#gadget-pub ol li {
+ float: left;
+ margin-left: 15px;
+ text-align: center;
+}
+
+#gadget-pub ol li span {
+ color: #fff;
+ background: #6dae40;
+ padding: 2px 4px;
+ -moz-border-radius:3px;
+ -webkit-border-radius:3px;
+}
+
+#gadget-pub ol li strong {
+ color: #6dae40;
+ font-size: 3em;
+}
+
+/* table info */
+
+.def-pub {
+ font-size: 1.2em;
+ color: #6dae40;
+ font-weight: 200;
+ width: 150px;
+ line-height: 1.2;
+ display: inline-table;
+}
+
+.info-pub p {
+ font-size: 1.2em;
+ margin-bottom: 15px;
+ font-weight: 300;
+ color: #797970;
+ line-height: 1.2;
+}
+
+/* action sprite */
+
+#sprite-action {
+ margin-top: 6px;
+}
+
+#sprite-action li{
+ float: left;
+}
+
+.action-add, .action-mail, .action-macht {
+ height: 30px;
+ width: 32px;
+ margin-right: 10px;
+}
+
+.action-edit {
+ background: url(img/sprite-actions.png) no-repeat 0px 0px;
+}
+
+.action-edit:hover {
+ background: url(img/sprite-actions.png) no-repeat 0px -30px;
+}
+
+.action-add {
+ background: url(img/sprite-actions.png) no-repeat -32px 0px;
+}
+
+.action-add:hover {
+ background: url(img/sprite-actions.png) no-repeat -32px -30px;
+}
+
+.action-mail {
+ background: url(img/sprite-actions.png) no-repeat -64px 0px;
+}
+
+.action-mail:hover {
+ background: url(img/sprite-actions.png) no-repeat -64px -30px;
+}
+
+.action-macht {
+ background: url(img/sprite-actions.png) no-repeat -96px 0px;
+}
+
+.action-macht:hover {
+ background: url(img/sprite-actions.png) no-repeat -96px -30px;
+}
+
+/* Settings para popup */
+
+.popup_container * {
+    margin: 0; padding: 0; outline: none;
+}
+
+.popup_container {
+	overflow: hidden;
+	width: 900px;
+	margin: 15px auto;
+	padding: 10px;
+	background: #f0f0f0;
+	border: 1px solid #ccc;
+	font: 10px normal Arial, Helvetica, sans-serif;
+}
+
+.popup_container a {
+    color: #fff;
+}
+
+.popup_container h1 {
+    margin-bottom: 10px;
+}
+
+.center_details ul {
+    font-size: 14px;
+    list-style: none;
+}
+
+.center_details h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/*--Main Image Preview--*/
+.main_image {
+	width: 598px; height: 456px;
+	float: left;
+	background: #333;
+	position: relative;
+	overflow: hidden;
+	color: #fff;
+	margin: 0;
+}
+.main_image h2 {
+	font-size: 2em;
+	font-weight: normal;
+	margin: 0 0 5px;	padding: 10px;
+}
+.main_image p {
+	font-size: 1.2em;
+	padding: 10px;	margin: 0;
+	line-height: 1.6em;
+}
+.block small { 
+	padding: 0;
+	font-size: 1em; 
+}
+.main_image .block small {margin-left: 10px;}
+.main_image .desc{
+	position: absolute;
+	bottom: 0;	left: 0;
+	width: 100%;
+	display: none;
+}
+.main_image .block{
+	width: 100%;
+	background: #111;
+	border-top: 1px solid #000;
+}
+.main_image a.collapse {
+	background: url(img-thumbnail/btn_collapse.gif) no-repeat left top;
+	height: 27px; width: 93px;
+	text-indent: -99999px;
+	position: absolute; 
+	top: -27px; right: 20px; 
+}
+.main_image a.show {
+    background-position: left bottom;
+} 
+
+.image_thumb {
+	float: left;
+	width: 299px;
+	background: #f0f0f0;
+	border-right: 1px solid #fff;
+	border-top: 1px solid #ccc;
+}
+.image_thumb img {
+	border: 1px solid #ccc; 
+	padding: 5px; 
+	background: #fff; 
+	float: left;
+}
+.image_thumb ul {
+	margin: 0; padding: 0;
+	list-style: none;
+}
+.image_thumb ul li{
+	margin: 0; padding: 12px 10px;
+	background: #f0f0f0 url(img-thumbnail/nav_a.gif) repeat-x;
+	width: 279px;
+	float: left;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #ccc;
+}
+.image_thumb ul li.hover {
+	background: #ddd;
+	cursor: pointer;
+}
+.image_thumb ul li.active {
+	background: #fff;
+	cursor: default;
+}
+html .image_thumb ul li h2 {
+	font-size: 1.5em; 
+	margin: 5px 0; padding: 0;
+}
+.image_thumb ul li .block {
+	float: left; 
+	margin-left: 10px;
+	padding: 0;
+	width: 170px;
+}	
+.image_thumb ul li p {
+    display: none;
+}
+
+/* Tiny Scrollbar */
+#scrollbar1 { 
+    margin: 0px 0 10px; 
+    float: left;
+	width: 300px;
+	height: 456px;
+}
+
+#scrollbar1 .viewport { 
+    width: 284px; 
+    height: 456px; 
+    overflow: hidden; 
+    position: relative; 
+}
+
+#scrollbar1 .overview { 
+    list-style: none; 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    padding: 0; 
+    margin: 0; 
+}
+
+#scrollbar1 .scrollbar { 
+    background: transparent url(img-tinyscrollbar/bg-scrollbar-track-y.png) no-repeat 0 0; 
+    position: relative; 
+    background-position: 0 0; 
+    float: right; 
+    width: 15px; 
+}
+
+#scrollbar1 .track { 
+    background: transparent url(img-tinyscrollbar/bg-scrollbar-trackend-y.png) no-repeat 0 100%; 
+    height: 100%; 
+    width:13px; 
+    position: relative; 
+    padding: 0 1px; 
+}
+
+#scrollbar1 .thumb { 
+    background: transparent url(img-tinyscrollbar/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; 
+    height: 20px; 
+    width: 25px; 
+    cursor: pointer; 
+    overflow: hidden; 
+    position: absolute; 
+    top: 0; 
+    left: -5px; 
+}
+
+#scrollbar1 .thumb .end { 
+    background: transparent url(img-tinyscrollbar/bg-scrollbar-thumb-y.png) no-repeat 50% 0; 
+    overflow: hidden; 
+    height: 5px; 
+    width: 25px; 
+}
+
+#scrollbar1 .disable { 
+    display: none; 
+}
+.center_details ul {
+    font-size: 14px;
+    list-style: none;
+}
+
+.center_details h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/*--Main Image Preview--*/
+.main_image {
+	width: 598px; height: 456px;
+	float: left;
+	background: #333;
+	position: relative;
+	overflow: hidden;
+	color: #fff;
+	margin: 0;
+}
+.main_image h2 {
+	font-size: 2em;
+	font-weight: normal;
+	margin: 0 0 5px;	padding: 10px;
+}
+.main_image p {
+	font-size: 1.2em;
+	padding: 10px;	margin: 0;
+	line-height: 1.6em;
+}
+.block small { 
+	padding: 0;
+	font-size: 1em; 
+}
+.main_image .block small {margin-left: 10px;}
+.main_image .desc{
+	position: absolute;
+	bottom: 0;	left: 0;
+	width: 100%;
+	display: none;
+}
+.main_image .block{
+	width: 100%;
+	background: #111;
+	border-top: 1px solid #000;
+}
+.main_image a.collapse {
+	background: url(img-thumbnail/btn_collapse.gif) no-repeat left top;
+	height: 27px; width: 93px;
+	text-indent: -99999px;
+	position: absolute; 
+	top: -27px; right: 20px; 
+}
+.main_image a.show {
+    background-position: left bottom;
+} 
+
+.image_thumb {
+	float: left;
+	width: 299px;
+	background: #f0f0f0;
+	border-right: 1px solid #fff;
+	border-top: 1px solid #ccc;
+}
+.image_thumb img {
+	border: 1px solid #ccc; 
+	padding: 5px; 
+	background: #fff; 
+	float: left;
+}
+.image_thumb ul {
+	margin: 0; padding: 0;
+	list-style: none;
+}
+.image_thumb ul li{
+	margin: 0; padding: 12px 10px;
+	background: #f0f0f0 url(img-thumbnail/nav_a.gif) repeat-x;
+	width: 279px;
+	float: left;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #ccc;
+}
+.image_thumb ul li.hover {
+	background: #ddd;
+	cursor: pointer;
+}
+.image_thumb ul li.active {
+	background: #fff;
+	cursor: default;
+}
+html .image_thumb ul li h2 {
+	font-size: 1.5em; 
+	margin: 5px 0; padding: 0;
+}
+.image_thumb ul li .block {
+	float: left; 
+	margin-left: 10px;
+	padding: 0;
+	width: 170px;
+}	
+.image_thumb ul li p {
+    display: none;
+}
+
+/* Tiny Scrollbar */
+#scrollbar1 { 
+    margin: 0px 0 10px; 
+    float: left;
+	width: 300px;
+	height: 456px;
+}
+
+#scrollbar1 .viewport { 
+    width: 284px; 
+    height: 456px; 
+    overflow: hidden; 
+    position: relative; 
+}
+
+#scrollbar1 .overview { 
+    list-style: none; 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    padding: 0; 
+    margin: 0; 
+}
+
+#scrollbar1 .scrollbar { 
+    background: transparent url(img-tinyscrollbar/bg-scrollbar-track-y.png) no-repeat 0 0; 
+    position: relative; 
+    background-position: 0 0; 
+    float: right; 
+    width: 15px; 
+}
+
+#scrollbar1 .track { 
+    background: transparent url(img-tinyscrollbar/bg-scrollbar-trackend-y.png) no-repeat 0 100%; 
+    height: 100%; 
+    width:13px; 
+    position: relative; 
+    padding: 0 1px; 
+}
+
+#scrollbar1 .thumb { 
+    background: transparent url(img-tinyscrollbar/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; 
+    height: 20px; 
+    width: 25px; 
+    cursor: pointer; 
+    overflow: hidden; 
+    position: absolute; 
+    top: 0; 
+    left: -5px; 
+}
+
+#scrollbar1 .thumb .end { 
+    background: transparent url(img-tinyscrollbar/bg-scrollbar-thumb-y.png) no-repeat 50% 0; 
+    overflow: hidden; 
+    height: 5px; 
+    width: 25px; 
+}
+
+#scrollbar1 .disable { 
+    display: none; 
+}
+
